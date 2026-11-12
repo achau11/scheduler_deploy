@@ -1,46 +1,25 @@
-# Interview Scheduler
+# Interview Scheduler — Historical deployment repository
 
-## Setup
+This repository contains a **historical deploy/build copy** of the [Interview Scheduler React project](https://github.com/achau11/scheduler). For the project overview, development notes and source-oriented documentation, start with the main `scheduler` repository.
 
-Install dependencies with `npm install`.
+> This repository includes old build output and was used for a previous deployment experiment. The historic external demo addresses are **not verified as currently available**. It is not an actively maintained hosted service.
 
-## Running Webpack Development Server
+## What the app demonstrates
 
-```sh
-npm start
-```
-
-## Running Jest Test Framework
-
-```sh
-npm test
-```
-
-## Running Storybook Visual Testbed
-
-```sh
-npm run storybook
-```
-## Features
-
-- Development focuses on a single page application (SPA) called Interview Scheduler, built using React.
-- Data is persisted by the API server using a PostgreSQL database.
-- The client application communicates with an API server over HTTP, using the JSON format.
-- Jest tests are used through the development of the project.
+- React interface for viewing and managing interview appointments
+- HTTP communication with a separate API backed by PostgreSQL
+- UI test setup with Jest and Storybook
 
 ## Screenshots
-!["Landing Page"](https://github.com/xazzer81/scheduler/blob/master/docs/landingpage.png?raw=true)
 
---------------------------------------
+| Appointments | Details |
+| --- | --- |
+| ![Scheduler landing page](docs/landingpage.png) | ![Appointment details](docs/details.png) |
 
-!["Create Appointment"](https://github.com/xazzer81/scheduler/blob/master/docs/Show.png?raw=true)
+| Edit appointment | Delete confirmation |
+| --- | --- |
+| ![Appointment editor](docs/Show.png) | ![Delete confirmation](docs/delete.png) |
 
---------------------------------------
+## Running code
 
-!["New Appointment"](https://github.com/xazzer81/scheduler/blob/master/docs/details.png?raw=true)
-
---------------------------------------
-
-!["Delete confirmation"](https://github.com/xazzer81/scheduler/blob/master/docs/delete.png?raw=true)
-
-
+For the most meaningful source and setup instructions, see [achau11/scheduler](https://github.com/achau11/scheduler). This old deployment snapshot may need dependency, environment, and backend configuration changes to run.
